@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAV SMALL -->
+    <div class="container-fluid">
+        <div class="nav-small ubuntu d-flex align-items-center justify-content-end">
+            <span class="hide-responsive">Envíos a todo chile</span>
+            <span class="separador hide-responsive">|</span>
+            <span class="hide-responsive">10% descuento 1era compra</span>
+            <span class="separador hide-responsive">|</span>
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="ingresar.html">Ingresa</a>
+            <a href="faq.html">Ayuda</a>
+            <a href="contacto.html">Contacto</a>
+            <img src="img/nav-small-ring.png" alt="">
+            <img src="img/nav-small-fb.png" alt="">
+            <img src="img/nav-small-wsp.png" alt="">
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-full.png" class="d-inline-block align-top" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav montserrat d-flex align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link bold" href="#inicio">nueva colección <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">mujer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">hombre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">junior</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="img/nav-lupa.png" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="img/nav-carro.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="categoria-div">
+                <button class="categoria-catalogo">Nueva Colección</button><span> / </span><button class="categoria-catalogo"><b>Mujer</b></button>
+            </div>
+        </div>
+        <div class="row d-flex flex-row align-items-center dropdowns">
+            <!-- Categoría 1 -->
+                <div class="d-flex flex-row d-flex align-items-center item-categoria">
+                    <span>Categoría:</span>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Seleccionar
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Mujer (20)</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Categoría 2 -->
+            
+                <div class="d-flex flex-row d-flex align-items-center item-categoria">
+                    <span>Talla:</span>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Seleccionar
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">32 (10)</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Categoría 3 -->
+                <div class="d-flex flex-row d-flex align-items-center item-categoria">
+                    <span>Modelo:</span>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Seleccionar
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Slim (7)</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Categoría 4 -->
+            <div class="d-flex flex-row d-flex align-items-center item-categoria" style="margin-left: auto; margin-right: 0px;">
+                <span>Ordenar por:</span>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seleccionar
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Precio (menor - mayor)</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="margin: 0px 0px 20px 0px;">
+        <!-- Fila 1 -->
+        <div class="row catalogo">
+            <div class="col-sm-3">
+                <!-- Producto 1 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo1.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span>$20.000</span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            <button class="ubuntu">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 2 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo2.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 3 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo3.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 4 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo4.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row catalogo">
+            <div class="col-sm-3">
+                <!-- Producto 5 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo1.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 6 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo2.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 7 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo3.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 8 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo4.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row catalogo">
+            <div class="col-sm-3">
+                <!-- Producto 9 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo1.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 10 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo2.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 11 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo3.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 12 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo4.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 4 -->
+        <div class="row catalogo">
+            <div class="col-sm-3">
+                <!-- Producto 13 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo1.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 14 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo2.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 15 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo3.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <!-- Producto 16 -->
+                <div class="categorias-card d-flex flex-column">
+                    <div class="categorias-card-imagen">
+                        <img src="img/catalogo4.png" alt="">
+                    </div>
+                    <div class="categorias-card-content d-flex flex-column">
+                        <span class="categorias-card-title montserrat">Nombre del producto</span>
+                        <span class="categorias-card-marca">Marca</span>
+                        <span class="categorias-card-precio montserrat">$17.500</span>
+                        <div class="old-precio-card d-flex align-items-center montserrat">
+                            <span></span>
+                        </div>
+                        <div class="categorias-card-comprar d-flex align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="page-indicators d-flex flex-row">
+                <span class="page-indicators-prev">Primera</span>
+                <button class="btn-index current-page">1</button>
+                <button class="btn-index">2</button>
+                <button class="btn-index">3</button>
+                <button class="btn-index">4</button>
+                <span class="page-indicators-next">Última</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container footer">
+        <div class="row row-footer">
+            <div class="col-sm-3 footer-item">
+                <span class="title-footer montserrat">AYUDA</span>
+                <a href="contacto.html">Contacto</a>
+                <a href="faq.html">Preguntas frecuentes</a>
+                <a href="politicas.html">Politicas de compra</a>
+                <a href="tiendas.html">Tiendas</a>
+            </div>
+
+            <div class="col-sm-6 footer-item webpay">
+                <span class="title-footer montserrat">MEDIOS DE PAGO</span>
+                <img src="img/webpay.png" alt="">
+            </div>
+
+            <div class="col-sm-3 footer-item">
+                <span class="title-footer montserrat">CONTACTANOS</span>
+                <div class="rss-icons d-flex flex-row justify-content-center">
+                    <img src="img/ig-logo-red.png" alt="">
+                    <img src="img/fb-logo-red.png" alt="">
+                    <img src="img/wsp-logo-red.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container copyright d-flex align-items-center">
+        <span class="copy-bold montserrat">© HNAS CORNEJO 2020.</span>
+        <span class="copy-regular montserrat">Todos los derechos reservados.</span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
